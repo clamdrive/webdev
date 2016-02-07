@@ -9,4 +9,6 @@ You should maybe go through _@osteel's_ excellent tutorial:
 
 ### Notes:
 
-* I have installed adminer under `tools/adminer.php` rather than phpmyadmin.
+* I have installed adminer under `tools/adminer.php` rather than phpmyadmin used by @osteel.
+* Run `shtools/fixenv.sh` to reset environment if shell has lost it.
+* Run `shtools/cleandocker.sh` to remove dangling images and volumes.
