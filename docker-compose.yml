@@ -37,3 +37,14 @@ data:
     volumes:
         - /var/lib/mysql
     command: "true"
+
+jenkins:
+    build: ./jenkins/
+    ports:
+        - 8080:8080
+        - 50000:50000
+    links:
+        - php
+    volumes:
+        - /var/jenkins_home
+
